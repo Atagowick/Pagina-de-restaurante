@@ -7,12 +7,10 @@
     padding: 0; 
     margin: 0;
 }
-p{
-    color: #756F6F;
-}
 .parrafo{
     position: relative;
     left: 150px;
+    float: inline-start;
 }
 .oscuro{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media.discordapp.net/attachments/1226725804961042544/1258441732513861652/image.png?ex=66880eb1&is=6686bd31&hm=a2317c3862a73890c5d71560829502f79d1f815b65db81ef29ef4e33367c906d&=&format=webp&quality=lossless&width=988&height=559');
@@ -28,8 +26,9 @@ p{
     height: 308px;
     width: 500px;
     position: relative;
-    left: auto;
-    float: left;
+    right: 400px;
+    margin-top: 100px;
+    float: right;
 }
 .titulo{
     color: white;
@@ -39,6 +38,15 @@ p{
     position: relative;
     left: 150px;
 }
+.titulo-2{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37%;
+}
 h2{
     font-size: 50px;
     color: white;
@@ -47,4 +55,15 @@ h2{
 p{
     width: 500px;
     font-size: 30px;
+    color: #756F6F;
+
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #BA7345;
+    color: white;
+    margin-top: 25%;
+    left: 40%;
 }
