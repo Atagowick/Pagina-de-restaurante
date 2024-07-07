@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="../Estilos/footer.css">
 
-<footer style="background-color: #333; color: white; padding: 20px;">
+<footer style="background-color: #333; color: white; padding: 0px;">
     <div style="display: flex; justify-content: space-between;">
         <div>
             <h3>Ubicación</h3>
