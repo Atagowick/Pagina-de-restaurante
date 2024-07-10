@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="../img/imagen-sobre-nosotros.jpg" alt="Sobre Nosotros" class="img-fluid">
+                <img src="../img/restaurant-1.jpg" alt="Sobre Nosotros" class="img-fluid">
             </div>
         </div>
     </div>
@@ -60,5 +60,8 @@
             </div>
         </div>
     </div>
-
+   
 </body>
+<footer>
+<?php include 'footer.php'; ?>
+</footer>
