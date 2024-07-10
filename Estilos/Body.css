@@ -7,8 +7,10 @@
     padding: 0; 
     margin: 0;
 }
-p{
-    color: #756F6F;
+.parrafo{
+    position: relative;
+    left: 150px;
+    float: inline-start;
 }
 .oscuro{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media.discordapp.net/attachments/1226725804961042544/1258441732513861652/image.png?ex=66880eb1&is=6686bd31&hm=a2317c3862a73890c5d71560829502f79d1f815b65db81ef29ef4e33367c906d&=&format=webp&quality=lossless&width=988&height=559');
@@ -19,11 +21,31 @@ p{
     padding: 0; 
     margin: 0;
 }
+.oscuro-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media.discordapp.net/attachments/1226725804961042544/1258451971094872095/circuito_ilo_playas.png?ex=6688183a&is=6686c6ba&hm=3091b28c54d1fc60dc14deec275a122230b5a4d62841ccfef2b83186737a0c4a&=&format=webp&quality=lossless&width=550&height=309');
+    height: 308px;
+    width: 500px;
+    position: relative;
+    right: 400px;
+    margin-top: 100px;
+    float: right;
+}
 .titulo{
     color: white;
     font-size: 50px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    position: relative;
+    left: 150px;
+}
+.titulo-2{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37%;
 }
 h2{
     font-size: 50px;
@@ -33,4 +55,54 @@ h2{
 p{
     width: 500px;
     font-size: 30px;
+    color: #756F6F;
+
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #BA7345;
+    color: white;
+    margin-top: 25%;
+    left: 40%;
+}
+/* nuevo codigo  */
+.image-overlay-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay-container img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-overlay-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.image-overlay-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-overlay .text {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
 }
