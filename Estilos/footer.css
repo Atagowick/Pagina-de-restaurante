@@ -33,30 +33,4 @@ p {
   line-height: 1.5;
 }
 
-.social-media {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.social-media li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media a {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  line-height: 32px;
-  border-radius: 50%;
-  background-color: #ddd;
-  color: #000;
-  transition: background-color 0.3s ease;
-}
-
-.social-media a:hover {
-  background-color: #000;
-  color: #fff;
-}
