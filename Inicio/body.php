@@ -18,12 +18,12 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2>Sobre Nosotros</h2>
-                <p>Situado en la ciudad de ILO, RESTAURANT FUSION se distingue por ofrecer una fusión única de sabores locales e internacionales.
+                <p class="parrafo">Situado en la ciudad de ILO, RESTAURANT FUSION se distingue por ofrecer una fusión única de sabores locales e internacionales.
                    Nuestro compromiso con ingredientes frescos y técnicas culinarias innovadoras garantiza una experiencia gastronómica excepcional.
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="../img/restaurant-1.jpg" alt="Sobre Nosotros" class="img-fluid">
+                <img src="../img/restaurant-1.jpg" alt="Sobre Nosotros" class="img-fluid mb-4">
             </div>
         </div>
     </div>
@@ -31,6 +31,7 @@
 
     </div>
     <button>Ver mas</button>
+    <br><br><br>
     <p class="titulo-2">Platos recomendados</p>
     <div class="container mt-5">
         <div class="row">

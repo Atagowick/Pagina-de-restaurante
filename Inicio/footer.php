@@ -1,7 +1,16 @@
 
 <link rel="stylesheet" href="../Estilos/footer.css">
 
+<br>
+    <br>
+    <br>
+
+    <div class="custom-line-container">
+            <hr class="custom-line">
+        </div>
+        <br><br>
 <footer style="padding: 0px;">
+  
     <div style="display: flex; justify-content: space-evenly;">
         <div>
             <h3>Ubicación</h3>

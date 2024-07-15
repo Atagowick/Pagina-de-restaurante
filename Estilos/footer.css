@@ -35,5 +35,14 @@ h3 {
 p {
   line-height: 1.5;
 }
+.custom-line-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
+.custom-line {
+  width: 50%; /* Ajusta el ancho de la línea aquí */
+  border: 1px solid #7EA1AE; /* Ajusta el color y el grosor de la línea aquí */
+}
 

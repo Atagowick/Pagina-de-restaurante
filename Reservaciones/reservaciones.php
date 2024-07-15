@@ -44,15 +44,9 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
+    
 
-    <div class="custom-line-container">
-            <hr class="custom-line">
-        </div>
-
-        <footer>
+    <footer>
     <?php include '../Inicio/footer.php'; ?>
     </footer>
 </body>
