@@ -1,0 +1,87 @@
+*{
+    font-family: 'Libre Baskerville';
+}
+.fondo-inicio{
+    background-color: #242424;
+    border: none;
+    padding: 0; 
+    margin: 0;
+}
+.parrafo{
+    width: 500px;
+    font-size: 30px;
+    color: #756F6F;
+}
+.oscuro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media.discordapp.net/attachments/1226725804961042544/1258441732513861652/image.png?ex=66880eb1&is=6686bd31&hm=a2317c3862a73890c5d71560829502f79d1f815b65db81ef29ef4e33367c906d&=&format=webp&quality=lossless&width=988&height=559');
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 0; 
+    margin: 0;
+}
+
+
+.titulo-2{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Libre Baskerville' !important;
+}
+
+button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #BA7345;
+    color: white;
+    margin-top: 25%;
+    left: 40%;
+}
+/* nuevo codigo  */
+.image-overlay-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay-container img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-overlay-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.image-overlay-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-overlay .text {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
