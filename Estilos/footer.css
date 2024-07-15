@@ -1,5 +1,5 @@
 footer {
-  background-color: #333;
+  background-color: #242424;
   color: #fff;
   padding: 20px 0;
   width: 100%;
@@ -12,6 +12,9 @@ footer {
   margin: 0 auto;
   padding: 0 20px;
   flex: 1; /* Hace que la container ocupe todo el espacio disponible verticalmente */
+}
+.contacto{
+  color: #7EA1AE;
 }
 
 .row {

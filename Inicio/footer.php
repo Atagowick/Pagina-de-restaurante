@@ -1,22 +1,21 @@
-<footer>
 
 <link rel="stylesheet" href="../Estilos/footer.css">
 
-<footer style="background-color: #333; color: white; padding: 0px;">
+<footer style="padding: 0px;">
     <div style="display: flex; justify-content: space-evenly;">
         <div>
             <h3>Ubicación</h3>
-            
+
         </div>
         <div>
             <h3>Contacto</h3>
-            <p style="color: blue;">99563214</p>
-            <p>Fusion@gmail.com</p>
-            <p><i class="far fa-clock"></i> 09:00 AM - 17:00 PM</p>
+            <p class="contacto">99563214</p>
+            <p class="contacto">Fusion@gmail.com</p>
+            <p class="contacto"><i class="far fa-clock"></i> 09:00 AM - 17:00 PM</p>
         </div>
         <div>
             <h3>Enlace rápido</h3>
-            <ul>
+            <ul class="contacto">
                 <li><u>Menu</u></li>
                 <li>Services</li>
                 <li>Contact</li>
