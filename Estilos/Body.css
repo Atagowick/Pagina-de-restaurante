@@ -1,18 +1,21 @@
-*{
+* {
     font-family: 'Libre Baskerville';
 }
-.fondo-inicio{
+
+.fondo-inicio {
     background-color: #242424;
     border: none;
     padding: 0; 
     margin: 0;
 }
-.parrafo{
+
+.parrafo {
     width: 500px;
     font-size: 30px;
     color: #756F6F;
 }
-.oscuro{
+
+.oscuro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media.discordapp.net/attachments/1226725804961042544/1258441732513861652/image.png?ex=66880eb1&is=6686bd31&hm=a2317c3862a73890c5d71560829502f79d1f815b65db81ef29ef4e33367c906d&=&format=webp&quality=lossless&width=988&height=559');
     height: 800px;
     background-size: cover;
@@ -22,8 +25,7 @@
     margin: 0;
 }
 
-
-.titulo-2{
+.titulo-2 {
     color: white;
     font-size: 50px;
     text-decoration: underline;
@@ -31,13 +33,14 @@
     text-align: center;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     font-size: 50px;
     color: white;
     font-family: 'Libre Baskerville' !important;
 }
 
-button{
+button {
     position: relative;
     width: 150px;
     height: 40px;
@@ -46,14 +49,18 @@ button{
     margin-top: 25%;
     left: 40%;
 }
+
 /* nuevo codigo  */
 .image-overlay-container {
     position: relative;
     overflow: hidden;
+    height: 400px; /* Ajusta la altura según necesites */
 }
 
 .image-overlay-container img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.5s ease;
 }
 
