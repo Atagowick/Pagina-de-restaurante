@@ -1,0 +1,24 @@
+*{
+    font-family: 'Libre Baskerville';
+}
+.fondo-inicio{
+    background-color: #242424;
+}
+.noferta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noferta img{
+    width: 150px;
+    max-width: 600px;
+    height: auto;
+
+}
+.parrafo{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    max-width: 600px;
+}
+
