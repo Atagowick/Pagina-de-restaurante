@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../Estilos/Body.css">
     <!-- Enlazar Bootstrap CSS desde un CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 
 <body class="fondo-inicio">
@@ -28,7 +27,6 @@
         </div>
     </div>
     <div class="oscuro-2">
-
     </div>
     <button>Ver mas</button>
     <br><br><br>
@@ -66,3 +64,4 @@
 <footer>
 <?php include 'footer.php'; ?>
 </footer>
+</html>
