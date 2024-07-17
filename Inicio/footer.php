@@ -15,7 +15,7 @@
         <div>
             <h3>Ubicación</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d799.235802411568!2d-71.3322582077798!3d-17.658321963961367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1721176550245!5m2!1ses!2spe" 
-              width="115" height="110" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+              width="125" height="110" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
 
         </div>
         <div>
