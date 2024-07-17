@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../Estilos/Body.css">
     <!-- Enlazar Bootstrap CSS desde un CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <?php include '../Inicio/header.php'; ?>
 </head>
 
 <body class="fondo-inicio">
