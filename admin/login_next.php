@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Preparar y enlazar
     $stmt = $conexion->prepare("SELECT * FROM Admin WHERE Dni = ? AND Contrasena = ?");
     $stmt->bind_param("is", $dni, $password);
-
+// Prueba
     $stmt->execute();
     $result = $stmt->get_result();
 
