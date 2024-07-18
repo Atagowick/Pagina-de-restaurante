@@ -15,7 +15,7 @@
     object-fit: contain;
     padding: 0;
     position: relative;
-    right: -55px;
+    right: -40px;
 }
 
 .titulo-header {
@@ -35,7 +35,6 @@
     text-decoration: underline;
     position: relative;
     top: 20px;
-    right: 100px;
 }
 
 .nav-link:hover {
