@@ -11,10 +11,10 @@
                 <div class="col-md-1">
                     <img src="../img/logo.png" alt="Fusion Logo" class="img-fluid logo">
                 </div>
-                <div class="col-md-3 text-left">
+                <div class="col-md-5 text-left">
                     <h1 class="titulo-header">Fusion</h1>
                 </div>
-                <div class="col-md-6 text-end">
+                <div class="col-md-5 text-end">
                     <nav class="nav justify-content-end">
                         <a class="nav-link" href="#">Reservaciones</a>
                         <a class="nav-link" href="#">Ofertas</a>
