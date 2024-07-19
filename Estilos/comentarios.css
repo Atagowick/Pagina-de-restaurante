@@ -69,7 +69,6 @@
     background-color: #ff6600;  /* COLOR DE BOTON FONDO */
     border: none;
     color: #ffffff;  /* COLOR DEL TEXTO */
-    padding: 10px 110px;
     border-radius: 5px;
     cursor: pointer;  /* SE PONE LA MANITO CUANDO PASAS POR ENCIMA */
   }
