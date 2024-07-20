@@ -1,3 +1,7 @@
+<?php 
+include ("../conexion/conexion.php"); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +11,12 @@
     <link rel="stylesheet" href="../Estilos/Body.css">
     <!-- Enlazar Bootstrap CSS desde un CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
 </head>
 
 <body class="fondo-inicio">
     <div class="oscuro">
+    <?php include '../Inicio/header.php'; ?>
     </div>
     
     <div class="container mt-5">
@@ -59,7 +65,7 @@
             </div>
         </div>
     </div>
-   
+    <?php include 'chatbot.php'; ?>
 </body>
 <footer>
 <?php include 'footer.php'; ?>

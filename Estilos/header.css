@@ -1,0 +1,43 @@
+/* Estilos adicionales para el header */
+*{
+    font-family: 'Libre Baskerville';
+}
+.header {
+    padding: 20px 0;
+    background: transparent;
+    color: white;
+    margin: 0;
+}
+
+.header .logo {
+    max-height: 100px !important;
+    max-width: none !important;
+    object-fit: contain;
+    padding: 0;
+    position: relative;
+    right: -55px;
+}
+
+.titulo-header {
+    font-size: 60px;
+    color: white;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+
+.nav-link {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
