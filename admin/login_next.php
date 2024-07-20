@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>
             alert('Inicio de sesión exitoso');
             setTimeout(function() {
-                window.location.href = '../Inicio/body.php';
+                window.location.href = '../admin/vistaadmin.php';
             }, 1000);                      // 1 segundos de espera
         </script>";
     } else {
