@@ -16,9 +16,9 @@
                 </div>
                 <div class="col-md-6 text-right">
                     <nav class="nav">
-                        <a class="nav-link" href="#">Reservaciones</a>
-                        <a class="nav-link" href="#">Ofertas</a>
-                        <a class="nav-link" href="#">Opiniones</a>
+                        <a class="nav-link" href="../Reservaciones/reservaciones.php">Reservaciones</a>
+                        <a class="nav-link" href="../Ofertas/Ofertas.php">Ofertas</a>
+                        <a class="nav-link" href="../comentarios/comentarios.php">Opiniones</a>
                     </nav>
                 </div>
             </div>

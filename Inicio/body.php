@@ -65,7 +65,7 @@ include ("../conexion/conexion.php");
             </div>
         </div>
     </div>
-   
+    <?php include 'chatbot.php'; ?>
 </body>
 <footer>
 <?php include 'footer.php'; ?>
