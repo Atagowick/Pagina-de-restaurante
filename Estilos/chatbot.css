@@ -1,0 +1,37 @@
+/* chatbot.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1050; /* Para que esté por encima del modal */
+    width: 70px; /* Ajusta el tamaño de la burbuja */
+    height: 70px; /* Ajusta el tamaño de la burbuja */
+}
+
+.chat-icon {
+    width: 100%; /* Ajusta el tamaño del icono dentro de la burbuja */
+    height: 100%; /* Ajusta el tamaño del icono dentro de la burbuja */
+}
+
+#chat-modal .modal-dialog {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    margin: 0;
+    max-width: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+#messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
