@@ -22,5 +22,4 @@
                     </nav>
                 </div>
             </div>
-            <p>hola</p>
     </header>
